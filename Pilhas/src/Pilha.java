@@ -15,13 +15,11 @@ public class Pilha {
 	// ------ Atributos ------
 	// -----------------------
 
-	private TDado[] dados; // Armazena os elementos da estrutura
-
-	private int tamanho; // Equivale a capacidade máxima de armazenamento
-
-	private int topo; // Serve para indexar o vetor na posição correspondente ao
-						// topo da pilha; assim como, para indicar a quantidade de
-						// elementos armazenados na estrutura
+	private TDado[] dados;	// Armazena os elementos da estrutura.
+	private int tamanho; 	// Equivale a capacidade máxima de armazenamento.
+	private int topo; 		// Serve para indexar o vetor na posição correspondente ao
+							// topo da pilha; assim como, para indicar a quantidade de
+							// elementos armazenados na estrutura.
 
 	// -----------------------
 	// ------- Métodos -------
